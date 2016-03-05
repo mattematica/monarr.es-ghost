@@ -1,10 +1,10 @@
 /*
-Theme Name: Earmarked
-Theme URI: https://github.com/themeindex/earmarked-ghost
-Author: Theme Index
-Author URI: https://themeindex.io
+Theme Name: monarres
+Theme URI: https://github.com/mattematica/monarr.es-ghost
+Author: David Monarres
+Author URI: https://monarr.es
 Description: Earmarked is a clean lightweight two column theme focusing on what matters, your content. Designed by <a href="http://punsalan.me">Derek Punsalan</a> Twitter @derekpunsalan. Developed by <a href="https://themeindex.io">Theme Index</a> Twitter @themeindex
-Version: 1.0
+Version: 1.1
 */
 
 /*--------------------------------------------------------------
@@ -109,7 +109,7 @@ input,
 select,
 textarea {
 	color: #4a4a4a;
-	font-family: "open sans", sans-serif;
+	font-family: "roboto", sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
@@ -636,7 +636,7 @@ Masthead
 	clear: left;
 	max-width: 100%;
 	overflow: hidden;
-	min-height: 250px;
+	/* min-height: 250px;*/
 }
 
 .header-image img {
@@ -1341,7 +1341,8 @@ Responsive
 	}
 
 	.site-content {
-		margin: 60px 0;
+		margin: 25px 0;
+		/* margin: 60px 0;*/
 	}
 
 	.site-content .widget-area {
